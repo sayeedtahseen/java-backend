@@ -2,9 +2,17 @@
 /home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/common/BusinessRuleException.java
 /home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/course/Course.java
 /home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/course/CourseModule.java
+/home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/course/CourseModuleRepository.java
+/home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/course/CourseRepository.java
 /home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/course/CourseStatus.java
+/home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/course/CourseSummary.java
+/home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/dev/NPlusOneDemo.java
 /home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/enrollment/Enrollment.java
+/home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/enrollment/EnrollmentProgress.java
+/home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/enrollment/EnrollmentRepository.java
 /home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/enrollment/EnrollmentStatus.java
 /home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/enrollment/ModuleCompletion.java
+/home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/enrollment/ModuleCompletionRepository.java
 /home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/user/AppUser.java
+/home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/user/AppUserRepository.java
 /home/sid/Desktop/SampleApp/java-backend/src/main/java/com/sayeed/lender_training_portal/user/Role.java

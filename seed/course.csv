@@ -1,0 +1,13 @@
+id,title,description,status,trainer_id,version,created_at
+1,Selling Guide Fundamentals,"How loan eligibility, underwriting and delivery requirements fit together.",PUBLISHED,2,1,2026-01-28T14:00:00Z
+2,MBS Basics for Lenders,"How mortgage-backed securities are formed, priced and traded.",PUBLISHED,3,1,2026-01-31T14:00:00Z
+3,Loan Delivery and Pooling,Delivering loans for cash or into MBS pools.,PUBLISHED,4,1,2026-02-03T14:00:00Z
+4,Whole Loan vs MBS Execution,Choosing between cash window and securitization.,PUBLISHED,5,1,2026-02-06T14:00:00Z
+5,Pricing and Commitments,Locking pricing and managing commitment risk.,PUBLISHED,6,1,2026-02-09T14:00:00Z
+6,Interest Rate Risk Hedging,Hedging the pipeline between lock and sale.,PUBLISHED,2,1,2026-02-12T14:00:00Z
+7,Credit Risk Transfer Overview,How credit risk is shared with private investors.,PUBLISHED,3,1,2026-02-15T14:00:00Z
+8,Automated Underwriting Essentials,Working with automated underwriting findings.,PUBLISHED,4,1,2026-02-18T14:00:00Z
+9,Quality Control and Defect Prevention,Building a QC program that catches defects early.,PUBLISHED,5,1,2026-02-21T14:00:00Z
+10,Appraisal and Collateral Requirements,Property valuation rules and alternatives.,PUBLISHED,6,1,2026-02-24T14:00:00Z
+11,Servicing Transfers,Moving servicing rights between servicers.,DRAFT,2,0,2026-02-27T14:00:00Z
+12,Affordable Lending Products Overview,Low down payment and income-limit programs.,DRAFT,3,0,2026-03-02T14:00:00Z

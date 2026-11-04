@@ -1,0 +1,44 @@
+id,course_id,title,content,sort_order,duration_minutes
+1,1,Who the guide applies to,Lesson content for 'Who the guide applies to' in Selling Guide Fundamentals.,1,45
+2,1,Eligibility basics,Lesson content for 'Eligibility basics' in Selling Guide Fundamentals.,2,10
+3,1,Representations and warranties,Lesson content for 'Representations and warranties' in Selling Guide Fundamentals.,3,10
+4,1,Keeping current with updates,Lesson content for 'Keeping current with updates' in Selling Guide Fundamentals.,4,45
+5,2,What an MBS is,Lesson content for 'What an MBS is' in MBS Basics for Lenders.,1,20
+6,2,Pass-through mechanics,Lesson content for 'Pass-through mechanics' in MBS Basics for Lenders.,2,15
+7,2,TBA market overview,Lesson content for 'TBA market overview' in MBS Basics for Lenders.,3,15
+8,2,Prepayment risk,Lesson content for 'Prepayment risk' in MBS Basics for Lenders.,4,15
+9,3,Delivery options,Lesson content for 'Delivery options' in Loan Delivery and Pooling.,1,45
+10,3,Pool eligibility,Lesson content for 'Pool eligibility' in Loan Delivery and Pooling.,2,10
+11,3,Data quality at delivery,Lesson content for 'Data quality at delivery' in Loan Delivery and Pooling.,3,45
+12,3,Common delivery errors,Lesson content for 'Common delivery errors' in Loan Delivery and Pooling.,4,45
+13,3,Post-delivery fixes,Lesson content for 'Post-delivery fixes' in Loan Delivery and Pooling.,5,30
+14,4,Cash window explained,Lesson content for 'Cash window explained' in Whole Loan vs MBS Execution.,1,10
+15,4,MBS swap explained,Lesson content for 'MBS swap explained' in Whole Loan vs MBS Execution.,2,30
+16,4,Comparing execution economics,Lesson content for 'Comparing execution economics' in Whole Loan vs MBS Execution.,3,25
+17,5,Commitment types,Lesson content for 'Commitment types' in Pricing and Commitments.,1,10
+18,5,Pair-offs and extensions,Lesson content for 'Pair-offs and extensions' in Pricing and Commitments.,2,10
+19,5,Best efforts vs mandatory,Lesson content for 'Best efforts vs mandatory' in Pricing and Commitments.,3,10
+20,5,Reading a rate sheet,Lesson content for 'Reading a rate sheet' in Pricing and Commitments.,4,15
+21,6,Pipeline risk,Lesson content for 'Pipeline risk' in Interest Rate Risk Hedging.,1,15
+22,6,Fallout and pull-through,Lesson content for 'Fallout and pull-through' in Interest Rate Risk Hedging.,2,30
+23,6,Hedging with TBAs,Lesson content for 'Hedging with TBAs' in Interest Rate Risk Hedging.,3,30
+24,6,Hedge reporting,Lesson content for 'Hedge reporting' in Interest Rate Risk Hedging.,4,10
+25,7,Why CRT exists,Lesson content for 'Why CRT exists' in Credit Risk Transfer Overview.,1,30
+26,7,Structures at a glance,Lesson content for 'Structures at a glance' in Credit Risk Transfer Overview.,2,15
+27,7,Impact on lenders,Lesson content for 'Impact on lenders' in Credit Risk Transfer Overview.,3,45
+28,8,Submitting a loan,Lesson content for 'Submitting a loan' in Automated Underwriting Essentials.,1,45
+29,8,Reading findings,Lesson content for 'Reading findings' in Automated Underwriting Essentials.,2,45
+30,8,Resolving messages,Lesson content for 'Resolving messages' in Automated Underwriting Essentials.,3,30
+31,8,Resubmission rules,Lesson content for 'Resubmission rules' in Automated Underwriting Essentials.,4,25
+32,9,Prefunding QC,Lesson content for 'Prefunding QC' in Quality Control and Defect Prevention.,1,15
+33,9,Post-closing QC,Lesson content for 'Post-closing QC' in Quality Control and Defect Prevention.,2,25
+34,9,Defect categories,Lesson content for 'Defect categories' in Quality Control and Defect Prevention.,3,30
+35,9,Root-cause analysis,Lesson content for 'Root-cause analysis' in Quality Control and Defect Prevention.,4,20
+36,9,Reporting to management,Lesson content for 'Reporting to management' in Quality Control and Defect Prevention.,5,10
+37,10,Appraisal standards,Lesson content for 'Appraisal standards' in Appraisal and Collateral Requirements.,1,15
+38,10,Appraisal waivers,Lesson content for 'Appraisal waivers' in Appraisal and Collateral Requirements.,2,45
+39,10,Condition and quality ratings,Lesson content for 'Condition and quality ratings' in Appraisal and Collateral Requirements.,3,25
+40,10,Collateral red flags,Lesson content for 'Collateral red flags' in Appraisal and Collateral Requirements.,4,20
+41,11,Transfer types,Lesson content for 'Transfer types' in Servicing Transfers.,1,20
+42,11,Borrower notices,Lesson content for 'Borrower notices' in Servicing Transfers.,2,15
+43,11,Data handoff,Lesson content for 'Data handoff' in Servicing Transfers.,3,15
