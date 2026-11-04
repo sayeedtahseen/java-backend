@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: lender-training-portal
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  threads:
+    virtual:
+      enable: false
+
