@@ -8,4 +8,10 @@ spring:
   threads:
     virtual:
       enable: false
+app:
+  jwt:
+    issuer: lender-training-portal
+    ttl: 1h
+    secret: ${JWT_SECRET:6+uMO+xy3xCHkTE2jVnr1Z967Oz6PmnBD6bUIkHh8dE=}
+    
 
