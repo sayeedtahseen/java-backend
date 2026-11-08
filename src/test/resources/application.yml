@@ -1,6 +1,10 @@
 # Test-only overrides. This file is merged ON TOP of src/main/resources/application.yaml:
 # Boot loads both because the extensions differ (.yml vs .yaml), and .yml wins for keys defined in both.
 # LenderTrainingPortalApplicationTests asserts that this override is actually in effect.
+spring:
+  profiles:
+    active: test
+    
 app:
   jwt:
     # Base64 of "test-only-jwt-secret-never-use-in-production!" (45 bytes; JwtProperties requires >= 32).
