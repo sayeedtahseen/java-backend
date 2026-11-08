@@ -63,7 +63,7 @@ public class EnrollmentService {
     @Transactional 
     public EnrollmentProgress completeModule(Long userId, Long enrollmentId, Long moduleId) {
         Enrollment enrollment = enrollments.findByIdAndUserId(enrollmentId, userId)
-                                .orElseThrow(()-> new NotFoundException("Enrollment " + enrollmentId + " not found for user " + users.getReferenceById(userId).getFull_name()));
+                                .orElseThrow(() -> new NotFoundException("Enrollment " + enrollmentId + " not found"));
         
         Long courseId = enrollment.getCourse().getId();
 

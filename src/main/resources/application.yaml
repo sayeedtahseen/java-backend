@@ -7,7 +7,7 @@ spring:
       ddl-auto: validate
   threads:
     virtual:
-      enable: false
+      enabled: true
 app:
   jwt:
     issuer: lender-training-portal

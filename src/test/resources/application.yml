@@ -1,0 +1,10 @@
+# Test-only overrides. This file is merged ON TOP of src/main/resources/application.yaml:
+# Boot loads both because the extensions differ (.yml vs .yaml), and .yml wins for keys defined in both.
+# LenderTrainingPortalApplicationTests asserts that this override is actually in effect.
+app:
+  jwt:
+    # Base64 of "test-only-jwt-secret-never-use-in-production!" (45 bytes; JwtProperties requires >= 32).
+    secret: dGVzdC1vbmx5LWp3dC1zZWNyZXQtbmV2ZXItdXNlLWluLXByb2R1Y3Rpb24h
+
+# Docker Compose support is NOT started in tests: spring.docker.compose.skip.in-tests defaults to true
+# (checked in DockerComposeProperties$Skip in spring-boot-docker-compose 4.1.2), so we don't set it here.

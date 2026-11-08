@@ -3,9 +3,8 @@ package com.sayeed.lender_training_portal.course;
 import java.time.Clock;
 import java.time.Instant;
 
-import org.springframework.boot.data.autoconfigure.web.DataWebProperties.Pageable;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -30,7 +29,7 @@ public class CourseService {
         this.clock = clock;
     }
 
-    public Page<CourseSummary> listPublished(PageRequest pageable) {
+    public Page<CourseSummary> listPublished(Pageable pageable) {
         return courses.findSummariesByStatus(CourseStatus.PUBLISHED, pageable);
     }
 

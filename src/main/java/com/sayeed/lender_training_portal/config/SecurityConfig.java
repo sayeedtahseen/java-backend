@@ -23,7 +23,7 @@ import com.sayeed.lender_training_portal.auth.JwtProperties;
 
 @Configuration 
 @EnableConfigurationProperties (JwtProperties.class)
-class SecurityConfig {
+public class SecurityConfig {
 
     @Bean 
     SecurityFilterChain api(HttpSecurity http) throws Exception {

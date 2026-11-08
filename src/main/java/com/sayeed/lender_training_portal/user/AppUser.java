@@ -1,6 +1,8 @@
 package com.sayeed.lender_training_portal.user;
 
 import java.time.Instant;
+import java.util.Locale;
+import java.util.Objects;
 
 import jakarta.persistence.*;
 
@@ -15,14 +17,14 @@ public class AppUser {
     @Column(nullable = false, unique = true)
     private String email;
 
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private String passwordHash;
     
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private String fullName;
 
     @Enumerated(EnumType.STRING)
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private Role role;
 
     @Column(nullable = false)
@@ -31,7 +33,7 @@ public class AppUser {
     protected AppUser() {};
 
     public AppUser(String email, String password_hash, String full_name, Role role, Instant created_at) {
-        this.email = email;
+        this.email = Objects.requireNonNull(email).toLowerCase(Locale.ROOT);
         this.passwordHash = password_hash;
         this.fullName = full_name;
         this.role = role;

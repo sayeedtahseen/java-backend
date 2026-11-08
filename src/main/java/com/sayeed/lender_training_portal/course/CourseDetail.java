@@ -12,7 +12,7 @@ public record CourseDetail(
     long version,
     List<ModuleView> modules 
 ) {
-    public record ModuleView(Long id, int sortOrder, String tile, String content, int durationMinutes) {}
+    public record ModuleView(Long id, int sortOrder, String title, String content, int durationMinutes) {}
 
     public static CourseDetail from (Course c) {
         return new CourseDetail(
