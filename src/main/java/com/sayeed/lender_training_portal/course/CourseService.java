@@ -51,10 +51,11 @@ public class CourseService {
             request.modules().forEach(m -> course.addModule(m.title(), m.content(),  m.durationMinutes()));
         }
 
-        return CourseDetail.from(course);
+        Course saved = courses.save(course);
+        return CourseDetail.from(saved);
     }
 
-    @Transactional 
+    @Transactional
     public CourseDetail publish(Long courseId, CurrentUser user) {
         Course course = courses.findDetailById(courseId).orElseThrow(() -> notFound(courseId));
 
